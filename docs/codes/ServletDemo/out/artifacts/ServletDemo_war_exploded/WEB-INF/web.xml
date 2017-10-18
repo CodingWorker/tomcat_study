@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- 配置一个servlet -->
+    <!-- servlet的配置 -->
+    <servlet>
+        <!-- servlet的内部名称，自定义。尽量有意义 -->
+        <servlet-name>IndexServlet</servlet-name>
+        <!-- servlet的类全名： 包名+简单类名 -->
+        <servlet-class>com.example.IndexServlet</servlet-class>
+        <init-param>
+            <param-name>redirectUrl</param-name>
+            <param-value>http://www.baidu.com</param-value>
+        </init-param>
+    </servlet>
+    <servlet>
+        <servlet-name>AboutServlet</servlet-name>
+        <servlet-class>com.example.AboutServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>AboutServlet</servlet-name>
+        <url-pattern>/about</url-pattern>
+    </servlet-mapping>
+
+    <!-- servlet的映射配置 -->
+    <servlet-mapping>
+        <!-- servlet的内部名称，一定要和上面的内部名称保持一致！！ -->
+        <servlet-name>IndexServlet</servlet-name>
+        <!-- servlet的映射路径（访问servlet的名称） -->
+        <url-pattern>/first</url-pattern>
+    </servlet-mapping>
+</web-app>

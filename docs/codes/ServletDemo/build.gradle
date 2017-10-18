@@ -1,0 +1,24 @@
+group='com.example'
+version='1.0.0'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+    compile 'org.slf4j:slf4j-api:1.7.24'
+    testCompile 'junit:junit:4.12'
+// https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0'
+// https://mvnrepository.com/artifact/javax.inject/javax.inject
+    compile group: 'javax.inject', name: 'javax.inject', version: '1'
+// https://mvnrepository.com/artifact/javax.servlet/servlet-api
+    compile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+// https://mvnrepository.com/artifact/javax.el/javax.el-api
+    compile group: 'javax.el', name: 'javax.el-api', version: '3.0.0'
+
+}
+
