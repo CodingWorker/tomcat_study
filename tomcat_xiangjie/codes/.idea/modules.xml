@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/portal.iml" filepath="$PROJECT_DIR$/.idea/modules/portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/portal_main.iml" filepath="$PROJECT_DIR$/.idea/modules/portal_main.iml" group="portal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/portal_test.iml" filepath="$PROJECT_DIR$/.idea/modules/portal_test.iml" group="portal" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-app.iml" filepath="$PROJECT_DIR$/tomcat-app.iml" />
+    </modules>
+  </component>
+</project>
