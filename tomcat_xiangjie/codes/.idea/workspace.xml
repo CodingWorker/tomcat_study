@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="846f27ff-75f3-44c2-badb-5073352b8bdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_test_tomcat_study___portal_1_0_SNAPSHOT_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___com_test_tomcat_study___portal_1_0_SNAPSHOT_war__exploded_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tomcat_app_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/tomcat_app_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/portal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/portal_main.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/portal_test.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portal/src/main/java/com/test/tomcat_study/portal/api/IndexServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/tomcat_study/api/IndexServlet.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tomcat原理详解及请求过程.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tomcat工作原理.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tomcat工作原理详解.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tomcat目录结构详解.docx" afterPath="" />
-    </list>
+    <list default="true" id="846f27ff-75f3-44c2-badb-5073352b8bdf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/portal/.gradle/" />
@@ -1091,12 +1074,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509175534165</updated>
       <workItem from="1509175538210" duration="1160000" />
-      <workItem from="1509176715131" duration="917000" />
+      <workItem from="1509176715131" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2077000" />
+    <option name="totallyTimeSpent" value="2676000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
