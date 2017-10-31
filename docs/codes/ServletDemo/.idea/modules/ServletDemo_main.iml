@@ -9,7 +9,41 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.24" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/spring/day35_Spring01/资料/spring-framework-3.0.2.RELEASE-dependencies/javax.annotation/com.springsource.javax.annotation/1.0.0/com.springsource.javax.annotation-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/spring/day35_Spring01/资料/spring-framework-3.0.2.RELEASE-dependencies/javax.servlet/com.springsource.javax.servlet.jsp/2.1.0/com.springsource.javax.servlet.jsp-2.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/spring/day35_Spring01/资料/spring-framework-3.0.2.RELEASE-dependencies/javax.servlet/com.springsource.javax.servlet/2.5.0/com.springsource.javax.servlet-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/spring/day35_Spring01/资料/spring-framework-3.0.2.RELEASE-dependencies/javax.servlet/com.springsource.javax.servlet.jsp.jstl/1.1.2/com.springsource.javax.servlet.jsp.jstl-1.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

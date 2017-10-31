@@ -9,8 +9,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.24" level="project" />
+    <orderEntry type="module" module-name="ServletDemo_main" />
   </component>
   <component name="TestModuleProperties" production-module="ServletDemo_main" />
 </module>
